@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+   padding-left: 88px;
+   padding-right: 88px;
+}
+
+.py-5{
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    padding-left: 18px;
+    padding-right: 18px;
+ }
+}

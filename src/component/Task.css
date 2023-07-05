@@ -1,0 +1,54 @@
+.task-card{
+    background-color: black;
+    margin-bottom: 9px;
+    width: 100%;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.task-btn{
+   padding-right: 63px;
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+
+.task-btn-delete{
+    margin-left: 4px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-btn-delete:hover{
+    background-color: black;
+    color: white;
+}
+
+.task-btn-edit{
+    background-color: rgb(182, 182, 14);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-btn-edit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.task-title{
+    margin-bottom: 5px;
+}

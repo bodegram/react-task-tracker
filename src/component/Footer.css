@@ -1,0 +1,49 @@
+footer{
+    font-size: small;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: block;
+}
+
+.footer-title{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.row .col ul{
+    list-style: square;
+}
+
+.row .col ul li{
+    padding: 2px;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+/*
+  Mobile View 
+*/
+
+@media screen and (max-width:768px) {
+    .row{
+        display: block;
+    }
+
+    .row .col{
+        display: block;
+        padding-top: 15px;
+    }
+}
